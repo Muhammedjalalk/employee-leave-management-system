@@ -9,7 +9,7 @@ class RegisterView(generics.CreateAPIView):
     permission_classes=[permissions.AllowAny]
 
 
-class CutomTokenObtainPairView(TokenObtainPairView):
+class CustomTokenObtainPairView(TokenObtainPairView):
     serializer_class=CustomTokenObtainObjectSerilizer
     permission_classes=[permissions.AllowAny]
 
